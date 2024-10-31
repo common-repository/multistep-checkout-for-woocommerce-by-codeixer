@@ -1,0 +1,170 @@
+.woocommerce-NoticeGroup-checkout {
+
+    background: #fbfbfb;
+    padding: 10px 20px;
+    list-style: none;
+    border-left: 3px solid red;
+
+}
+.woocommerce-NoticeGroup-checkout .woocommerce-error {
+    color: #ff4542;
+    list-style: none;
+    margin: 0;
+
+}
+
+.ci_multistep .sw-container {
+
+    padding: 50px;
+border: 2px solid #efefefe6;
+
+margin-top: 30px;
+}
+.ci_multistep .btn-wapper {
+
+    display: block;
+    overflow: hidden;
+    float: right;
+    margin-top: 25px;
+
+}
+
+.ci_multistep .checkout.woocommerce-checkout {
+
+    margin-top: 0;
+
+}
+button.btn-hide{
+	display: none !important;
+}
+#ci_multistep_checkout .button.sw-btn-prev {
+
+    margin-right: 10px;
+
+}
+.button.sw-btn-next ,.button.btn-hide.ci-place-order{
+
+    margin-right: 0px;
+
+}
+.button {
+
+    margin-right: 10px;
+
+}
+.form-row.form_ci_cupon {
+margin-bottom: 0px !important;
+    display: block;
+    float: left;
+    width: 60%;
+
+}
+.form-row.form_ci_cupon_btn .button {
+    width: 100%;
+}
+.form-row.form_ci_cupon_btn {
+width: 37%;
+margin-top: 0px;
+    float: left;
+    margin-left: 10px !important;
+
+margin-bottom: 0px !important;
+    display: block;
+
+}
+.ci_multistep .multistep-nav-tabs{
+    text-align: center;
+}
+.woocommerce .ci_multistep form.checkout_coupon {
+
+    padding: 30px;
+    border: 3px dashed #ededed;
+    max-width: 500px;
+    margin: 0 auto !important;
+    display: block;
+
+}
+.col-0 {
+
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+
+.ci_multistep_text .multistep-nav li{
+
+    text-align: center;
+    float: none;
+    display: inline-block;
+font-size: 20px;
+
+margin-right: 25px;
+}
+
+.ci_multistep_text .multistep-nav li:last-child{
+    margin-right: 0px;
+}
+
+.ci_multistep_text .multistep-nav li a:after{
+content: "/"  !important;
+background: transparent !important;
+height: auto !important;
+position: absolute !important;
+width: 25px !important;
+left: 105% !important;
+bottom: 10px !important;
+
+}
+
+.ci_multistep_text .multistep-nav li:last-child a:after{
+    display: none;
+}
+
+
+
+
+
+
+
+
+/*For Mobile*/
+@media only screen and (max-width: 600px) {
+ 
+ .ci_multistep .sw-container {
+      padding: 0px;
+    padding-top: 25px;
+
+margin-top: 0px;
+}
+.col-0 {
+
+    width: 100%;
+
+}
+.sw-theme-default > .multistep-nav-tabs > li {
+   
+    width: 100%;
+}
+.form-row.form_ci_cupon {
+    margin-bottom: 15px !important;
+    display: block;
+    float: none;
+    width: 100%;
+}
+.sw-theme-default .step-content{
+    padding: 10px;
+}
+.form-row.form_ci_cupon_btn {
+    width: 100%;
+   
+    margin-left: 0px !important;
+    margin-bottom: 0px !important;
+    display: block;
+}
+.woocommerce-checkout .ci_multistep #customer_details .col-1, .woocommerce-checkout .ci_multistep #customer_details .col-2 {
+    float: left;
+    width: 100%;
+}
+
+}
